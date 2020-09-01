@@ -1,0 +1,73 @@
+@font-face {
+  font-family: codicon;
+  src: url(codicon.ttf?5d4d76ab2ce5108968ad644d591a16a6) format("truetype")
+}
+
+/* 图标字体来源,VsCode */
+.icon[class*=icon_] {
+  font: normal normal normal 16px/1 codicon;
+  display: inline-block;
+  text-decoration: none;
+  text-rendering: auto;
+  text-align: center;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none
+}
+
+.icon_mini:before {
+  content: "\eaba";
+}
+
+.icon_max:before {
+  content: "\eab9";
+}
+
+.icon_restore:before {
+  content: "\eabb";
+}
+
+.icon_close:before {
+  content: "\eab8";
+}
+
+.icon_menu:before {
+  content: "\eb94";
+}
+
+.icon_add:before {
+  content: "\ea60";
+}
+
+.icon_settings:before {
+  content: "\eb51";
+}
+
+.icon_search:before {
+  content: "\ea6d";
+}
+
+.icon_browser:before {
+  content: "\eaae"
+}
+
+.icon_heart:before {
+  content: "\eb05"
+}
+
+.icon_lock:before{
+  content:"\ea75"
+}
+
+.icon_unlock:before{
+  content:"\eb74"
+}
+
+.icon_home:before{
+  content:"\eb06"
+}
+.icon_play:before{
+  content:"\eba6"
+}

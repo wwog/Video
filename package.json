@@ -1,0 +1,28 @@
+{
+  "name": "video",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "icon": "./view/images/32.png",
+  "scripts": {
+    "test": "chcp 65001 && electron .",
+    "dist": "electron-builder --win"
+  },
+
+  "build": {
+    "win": {
+      "target": ["zip"],
+      "icon": "./view/images/256.ico"
+    }
+  },
+  "author": "guo",
+  "license": "ISC",
+  "dependencies": {
+    "fast-xml-parser": "^3.17.4",
+    "glasstron": "^0.0.3"
+  },
+  "devDependencies": {
+    "electron": "^9.2.0",
+    "electron-builder": "^22.8.0"
+  }
+}

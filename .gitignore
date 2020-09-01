@@ -1,0 +1,8 @@
+node_modules
+# Editor
+.vscode
+
+# test
+demo.js
+# build
+dist

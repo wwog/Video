@@ -1,5 +1,9 @@
 # Video
 
+#### 编译后下载
+
+windows:https://share.weiyun.com/A61paRn2
+
 #### 介绍
 
 跨平台视频资源播放器
